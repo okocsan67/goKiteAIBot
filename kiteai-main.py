@@ -31,7 +31,7 @@ class KiteAIAutomation:
         self.wallet_address = wallet_address
         self.proxy = proxy
         self.daily_points = 0
-        self.MAX_DAILY_POINTS = 20
+        self.MAX_DAILY_POINTS = 200
         self.POINTS_PER_INTERACTION = 10
         self.MAX_DAILY_INTERACTIONS = self.MAX_DAILY_POINTS // self.POINTS_PER_INTERACTION
         self.current_day_transactions = []
